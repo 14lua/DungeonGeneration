@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BOILikeGen")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c843fc2db6fae900e1146fba1e3fa55c4fcad723")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9e95eefc14093d351930f5a1db18db3d254cb1e1")]
 [assembly: System.Reflection.AssemblyProductAttribute("BOILikeGen")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BOILikeGen")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
