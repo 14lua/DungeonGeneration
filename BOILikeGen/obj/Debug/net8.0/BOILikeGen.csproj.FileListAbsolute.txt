@@ -1,0 +1,15 @@
+C:\Users\xhigo\source\repos\DungeonGeneration\BOILikeGen\bin\Debug\net8.0\BOILikeGen.exe
+C:\Users\xhigo\source\repos\DungeonGeneration\BOILikeGen\bin\Debug\net8.0\BOILikeGen.deps.json
+C:\Users\xhigo\source\repos\DungeonGeneration\BOILikeGen\bin\Debug\net8.0\BOILikeGen.runtimeconfig.json
+C:\Users\xhigo\source\repos\DungeonGeneration\BOILikeGen\bin\Debug\net8.0\BOILikeGen.dll
+C:\Users\xhigo\source\repos\DungeonGeneration\BOILikeGen\bin\Debug\net8.0\BOILikeGen.pdb
+C:\Users\xhigo\source\repos\DungeonGeneration\BOILikeGen\obj\Debug\net8.0\BOILikeGen.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\xhigo\source\repos\DungeonGeneration\BOILikeGen\obj\Debug\net8.0\BOILikeGen.AssemblyInfoInputs.cache
+C:\Users\xhigo\source\repos\DungeonGeneration\BOILikeGen\obj\Debug\net8.0\BOILikeGen.AssemblyInfo.cs
+C:\Users\xhigo\source\repos\DungeonGeneration\BOILikeGen\obj\Debug\net8.0\BOILikeGen.csproj.CoreCompileInputs.cache
+C:\Users\xhigo\source\repos\DungeonGeneration\BOILikeGen\obj\Debug\net8.0\BOILikeGen.sourcelink.json
+C:\Users\xhigo\source\repos\DungeonGeneration\BOILikeGen\obj\Debug\net8.0\BOILikeGen.dll
+C:\Users\xhigo\source\repos\DungeonGeneration\BOILikeGen\obj\Debug\net8.0\refint\BOILikeGen.dll
+C:\Users\xhigo\source\repos\DungeonGeneration\BOILikeGen\obj\Debug\net8.0\BOILikeGen.pdb
+C:\Users\xhigo\source\repos\DungeonGeneration\BOILikeGen\obj\Debug\net8.0\BOILikeGen.genruntimeconfig.cache
+C:\Users\xhigo\source\repos\DungeonGeneration\BOILikeGen\obj\Debug\net8.0\ref\BOILikeGen.dll

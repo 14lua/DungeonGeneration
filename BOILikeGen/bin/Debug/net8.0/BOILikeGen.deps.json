@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "BOILikeGen/1.0.0": {
+        "runtime": {
+          "BOILikeGen.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BOILikeGen/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

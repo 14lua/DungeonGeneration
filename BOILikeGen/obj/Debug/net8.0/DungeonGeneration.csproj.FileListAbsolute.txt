@@ -1,0 +1,15 @@
+C:\Users\xhigo\source\repos\DungeonGeneration\DungeonGeneration\bin\Debug\net8.0\DungeonGeneration.exe
+C:\Users\xhigo\source\repos\DungeonGeneration\DungeonGeneration\bin\Debug\net8.0\DungeonGeneration.deps.json
+C:\Users\xhigo\source\repos\DungeonGeneration\DungeonGeneration\bin\Debug\net8.0\DungeonGeneration.runtimeconfig.json
+C:\Users\xhigo\source\repos\DungeonGeneration\DungeonGeneration\bin\Debug\net8.0\DungeonGeneration.dll
+C:\Users\xhigo\source\repos\DungeonGeneration\DungeonGeneration\bin\Debug\net8.0\DungeonGeneration.pdb
+C:\Users\xhigo\source\repos\DungeonGeneration\DungeonGeneration\obj\Debug\net8.0\DungeonGeneration.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\xhigo\source\repos\DungeonGeneration\DungeonGeneration\obj\Debug\net8.0\DungeonGeneration.AssemblyInfoInputs.cache
+C:\Users\xhigo\source\repos\DungeonGeneration\DungeonGeneration\obj\Debug\net8.0\DungeonGeneration.AssemblyInfo.cs
+C:\Users\xhigo\source\repos\DungeonGeneration\DungeonGeneration\obj\Debug\net8.0\DungeonGeneration.csproj.CoreCompileInputs.cache
+C:\Users\xhigo\source\repos\DungeonGeneration\DungeonGeneration\obj\Debug\net8.0\DungeonGeneration.sourcelink.json
+C:\Users\xhigo\source\repos\DungeonGeneration\DungeonGeneration\obj\Debug\net8.0\DungeonGeneration.dll
+C:\Users\xhigo\source\repos\DungeonGeneration\DungeonGeneration\obj\Debug\net8.0\refint\DungeonGeneration.dll
+C:\Users\xhigo\source\repos\DungeonGeneration\DungeonGeneration\obj\Debug\net8.0\DungeonGeneration.pdb
+C:\Users\xhigo\source\repos\DungeonGeneration\DungeonGeneration\obj\Debug\net8.0\DungeonGeneration.genruntimeconfig.cache
+C:\Users\xhigo\source\repos\DungeonGeneration\DungeonGeneration\obj\Debug\net8.0\ref\DungeonGeneration.dll
