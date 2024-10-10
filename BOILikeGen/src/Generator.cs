@@ -1,19 +1,13 @@
 namespace BOILikeGen;
 
-public enum Direction
-{
-    N,
-    S,
-    E,
-    W
-}
+public enum Direction { N, S, E, W }
 
 public class Room(int id)
 {
-    public Dictionary<Direction, Room> Taken { get; set; } = new();
+    public Dictionary<Direction, Room> Taken { get; set; } = [];
     public List<Direction> Available { get; set; } = [Direction.N, Direction.S, Direction.E, Direction.W];
     public int Id { get; set; } = id;
-    public (int x, int y) Position { get; set; }
+    public (int x, int y) Position { get; init; }
 }
 
 public class Generator
