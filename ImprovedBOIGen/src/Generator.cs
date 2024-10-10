@@ -54,7 +54,10 @@ public class Generator
                                 dungeon.Add(newRoomPosition, new Room());
                                 size--;
                             }
-                            ConnectRooms(dungeon[i], dungeon[newRoomPosition], (1, 0));
+                            if (dungeon[newRoomPosition].ConnectedRooms[(1, 0)] == null)
+                            {
+                                ConnectRooms(dungeon[i], dungeon[newRoomPosition], (1, 0));
+                            }
                             break;
                         case 1:
                             newRoomPosition = (i.x - 1, i.y + 0);
@@ -63,7 +66,10 @@ public class Generator
                                 dungeon.Add(newRoomPosition, new Room());
                                 size--;
                             }
-                            ConnectRooms(dungeon[i], dungeon[newRoomPosition], (-1, 0));                           
+                            if (dungeon[newRoomPosition].ConnectedRooms[(-1, 0)] == null)
+                            {
+                                ConnectRooms(dungeon[i], dungeon[newRoomPosition], (-1, 0));
+                            }                           
                             break;
                         case 2:
                             newRoomPosition = (i.x + 0, i.y + 1);
@@ -72,7 +78,10 @@ public class Generator
                                 dungeon.Add(newRoomPosition, new Room());
                                 size--;
                             }
-                            ConnectRooms(dungeon[i], dungeon[newRoomPosition], (0, 1));                           
+                            if (dungeon[newRoomPosition].ConnectedRooms[(0, 1)] == null)
+                            {
+                                ConnectRooms(dungeon[i], dungeon[newRoomPosition], (0, 1));
+                            }                           
                             break;
                         case 3:
                             newRoomPosition = (i.x + 0, i.y - 1);
@@ -81,13 +90,32 @@ public class Generator
                                 dungeon.Add(newRoomPosition, new Room());
                                 size--;
                             }
-                            ConnectRooms(dungeon[i], dungeon[newRoomPosition], (0, -1));                           
+                            if (dungeon[newRoomPosition].ConnectedRooms[(0, -1)] == null)
+                            {
+                                ConnectRooms(dungeon[i], dungeon[newRoomPosition], (0, -1));
+                            }                           
                             break;
                     }
                 }
             }
         }
+
+        while (!IsUnique(dungeon))
+        {
+            dungeon = Generate();
+        }
         return dungeon;
+    }
+
+    private bool IsUnique(Dictionary<(int x, int y), Room> dungeon)
+    {
+        var roomsWithMany = 0;
+        foreach (var pair in dungeon)
+        {
+            if (pair.Value.NumberOfConnections > 2) roomsWithMany++;
+        }
+
+        return roomsWithMany > 1;
     }
 
     private void ConnectRooms(Room room1, Room room2, (int x, int y) direction)
